@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@200&display=swap"
+      rel="stylesheet"
+    />
+    <title>nft challenge</title>
+  </head>
+  <style>
+    body {
+      background-color: #0d1a2d;
+    }
+
+    .container {
+      background-color: #15273f;
+      height: 450px;
+      width: 270px;
+      margin-right: auto;
+      margin-left: auto;
+      margin-top: 80px;
+      border-radius: 15px;
+      box-shadow: 5px 5px 5px 10px #0c1729;
+    }
+
+    #img-equilibrium {
+      max-width: 240px;
+      max-height: 240px;
+      border-radius: 5px;
+      margin-left: 15px;
+      margin-top: 15px;
+    }
+    #text-one {
+      color: #fcffff;
+      font-family: 'Outfit', sans-serif;
+      font-size: 14px;
+      letter-spacing: 1px;
+      margin-left: 20px;
+    }
+    #text-two {
+      color: #576c8c;
+      font-size: 12.5px;
+      letter-spacing: 1px;
+      font-family: 'Outfit', sans-serif;
+      margin-left: 19px;
+      margin-top: -5px;
+    }
+    #eth-icon {
+      margin-left: 20px;
+      margin-top: -2px;
+    }
+    #ethBal {
+      color: #00fff8;
+      letter-spacing: 1px;
+      font-family: 'Outfit', sans-serif;
+      font-size: 13px;
+      font-weight: 900;
+    }
+    .eth-img {
+      display: flex;
+    }
+    #eth-icon {
+      height: max-content;
+      width: max-content;
+    }
+    #ethBal {
+      margin-left: 10px;
+      margin-top: -1px;
+      display: flex;
+    }
+    #dur-left {
+      color: #5d7391;
+      font-size: 12.5px;
+      font-family: 'Outfit', sans-serif;
+    }
+    #dur-icon {
+      height: max-content;
+      width: max-content;
+    }
+    #dur-left {
+      margin-top: -1px;
+      margin-left: 8px;
+    }
+    #img-avatar {
+      border: 1px solid white;
+      border-radius: 70px;
+      height: 30px;
+      width: 30px;
+      margin-left: 20px;
+    }
+    .creator-footer {
+      display: flex;
+    }
+    .footerspan {
+      color: #5d7391;
+      font-family: 'Outfit', sans-serif;
+      font-size: 12.5px;
+      font-weight: 700;
+      letter-spacing: 1px;
+      margin-top: 8px;
+      margin-left: 10px;
+    }
+  </style>
+
+  <body>
+    <!-- Image container -->
+    <div class="container">
+      <div class="img-container">
+        <img src="images/image-equilibrium.jpg" id="img-equilibrium" alt="#" />
+      </div>
+      <!-- Texts under the container -->
+      <div class="text-1"><h3 id="text-one">Equilibrium #3429</h3></div>
+      <div class="text-2">
+        <h5 id="text-two">
+          Our Equilibrium collection promotes balance and calm.
+        </h5>
+      </div>
+      <!-- The eth balance -->
+      <div class="eth-bal">
+        <div class="eth-img">
+          <img src="images/icon-ethereum.svg" id="eth-icon" alt="#" />
+          <h3 id="ethBal">0.041 ETH</h3>
+          <br />
+          <div style="margin-left: 60px"></div>
+          <img src="images/icon-clock.svg" id="dur-icon" alt="#" />
+          <h4 id="dur-left">3 days left</h4>
+        </div>
+      </div>
+      <!-- horizontal line -->
+      <hr style="width: 85%; border: 1px solid #20324a" />
+      <!-- creator-footer -->
+      <div class="creator-footer">
+        <img src="images/image-avatar.png" id="img-avatar" alt="#" />
+        <span class="footerspan">
+          Creation of <a href="#" style="color: #fcffff">Idris</a>
+        </span>
+      </div>
+    </div>
+  </body>
+</html>
